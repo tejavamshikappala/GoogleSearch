@@ -1,0 +1,70 @@
+.forOuterContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.google {
+  width: 35vw;
+  margin: 8px;
+}
+.forUl {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px#bfbfbf;
+  border-radius: 15px;
+  padding-left: 4px;
+  padding-top: 10px;
+  width: 90vw;
+  margin: 30px;
+  overflow: auto;
+}
+.forSearch {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+
+  align-self: flex-start;
+  overflow: auto;
+}
+.forInnerDiv {
+  display: flex;
+  width: 89vw;
+  border-radius: 15px;
+  margin-bottom: 30px;
+
+  margin-left: 5px;
+  overflow: auto;
+}
+.InputClass {
+  outline: none;
+  border-width: 0px;
+  color: #bfbfbf;
+  font-size: 22px;
+  width: 79vw;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 10px;
+  overflow: auto;
+}
+@media screen and (min-width: 768px) {
+  .forUl {
+    width: 45vw;
+  }
+  .forInnerDiv {
+    width: 42vw;
+  }
+  .InputClass {
+    width: 270px;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+    flex-shrink: 0px;
+    flex-grow: 1;
+  }
+  .google {
+    width: 25vw;
+  }
+}

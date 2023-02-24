@@ -1,0 +1,35 @@
+.forList {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin: 15px;
+  width: 84vw;
+}
+.forHeader {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-top: 0px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.forImage {
+  color: #475569;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .forList {
+    width: 42vw;
+  }
+}
